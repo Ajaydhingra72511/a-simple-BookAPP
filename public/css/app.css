@@ -1,0 +1,54 @@
+body {
+  background:
+}
+
+ul {
+  list-style: none;
+}
+
+
+p {
+  font-size: 1.15em;
+  line-height: 1.6;
+}
+
+.row {
+  padding: 2em;
+  position: relative;
+  padding-bottom: 200px;
+}
+.col-lg-3 {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 1em;
+}
+
+footer {
+  position: absolute;
+  bottom: 0%;
+  left: 0%; right: 0%;
+  height: 80px;
+}
+
+img {
+  margin: 1em 0;
+  max-height: 380px;
+  min-width: 300px;
+}
+
+.price span {
+  font-size: 1.1em;
+  padding: .5em;
+  color: green;
+  background: rgba(0, 0, 0, 0.05);
+  border: 2px solid;
+  border-radius: 3px;
+}
+
+.row .btn {
+  margin-top: 1em;
+  /*display: block !important;*/
+}
+
+h2 span {
+  font-size: 18px;
+}

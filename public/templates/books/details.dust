@@ -1,0 +1,25 @@
+{>"layouts/master" /}
+
+{<body}
+  <div class="col-lg-4 text-lg-center">
+    <img src="{book.cover}" alt="" class="img-fluid" />
+  </div>
+
+  <div class="col-lg-8">
+    <h2>{book.title}</h2>
+    <ul class="bookInfo">
+      <li>Category : {book.category}</li>
+      <li>Author : {book.author}</li>
+      <li>Published : {book.publisher}</li>
+    </ul>
+    <hr>
+    <div class="price"><span>${book.price}</span>
+      <p class="my-2">{book.description}</p>
+
+      <form method="post" action="/cart/{book._id}">
+        <button type="submit" class="btn btn-success">Add to cart</button>
+      </form>
+    </div>
+  </div>
+
+{/body}
